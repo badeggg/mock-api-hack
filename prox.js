@@ -25,5 +25,5 @@ ws.on('message', (data, isBin) => {
 
 ws.on('error', err => {
     console.log(err instanceof Error);
-    console.error(err.code);
+    console.error(err);
 })
